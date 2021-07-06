@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FeedCell: View {
     var body: some View {
+        
         VStack(alignment: .leading) {
             // user info
             HStack {
@@ -22,9 +23,10 @@ struct FeedCell: View {
                 Text("Uno")
                     .font(.system(size: 14, weight: .semibold))
             }
+            .padding([.leading, .bottom], 8)
             
             // post image
-            Image("모야")
+            Image("image01")
                 .resizable()
                 .scaledToFill()
                 .frame(maxHeight: 440)
@@ -36,7 +38,7 @@ struct FeedCell: View {
                     Image(systemName: "heart")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 20, height: 20)
                         .font(.system(size: 20))
                         .padding(4)
                 })
@@ -45,7 +47,7 @@ struct FeedCell: View {
                     Image(systemName: "bubble.right")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 20, height: 20)
                         .font(.system(size: 20))
                         .padding(4)
                 })
@@ -54,23 +56,31 @@ struct FeedCell: View {
                     Image(systemName: "paperplane")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 20, height: 20)
                         .font(.system(size: 20))
                         .padding(4)
                 })
-            }.foregroundColor(.black)
+            }
+            .padding(.leading, 8)
+            .foregroundColor(.black)
+            
+            Text("3 likes")
+                .font(.system(size: 14, weight: .semibold))
+                .padding(.leading, 8)
+                .padding(.bottom, 2)
             
             // caption
             HStack {
-                Text("Mooya").font(.system(size: 14, weight: .semibold)) + Text("아직도 자냐. 내 밥은 줄 생각이 없냐 주인놈? 빨리 일어나라 안일어나면 무는 수가 있다.")
+                Text("Mooya").font(.system(size: 14, weight: .semibold)) + Text("  아직도 자냐. 내 밥은 줄 생각이 없냐 주인놈? 빨리 일어나라 안일어나면 무는 수가 있다.")
                     .font(.system(size: 15))
-            }
+            }.padding(.horizontal, 8)
             
             Text("2d")
                 .font(.system(size: 14))
                 .foregroundColor(.gray)
-                .padding(.top)
-        }.padding()
+                .padding(.leading, 8)
+                .padding(.top, -2)
+        }
     }
 }
 
