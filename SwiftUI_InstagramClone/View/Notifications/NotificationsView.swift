@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  NotificationsView.swift
 //  SwiftUI_InstagramClone
 //
 //  Created by 김우성 on 2021/07/06.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct NotificationsView: View {
     var body: some View {
-        MainTabView()
-            
+        Text("Notifications")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct NotificationsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NotificationsView()
     }
 }
