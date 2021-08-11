@@ -23,7 +23,7 @@ struct UploadPostView: View {
                 Button(action: {
                     imagePickerPresented.toggle()
                 }, label: {
-                    Image("AddImage")
+                    Image("plus_photo")
                         .resizable()
                         .renderingMode(.template)
                         .scaledToFill()
@@ -31,13 +31,8 @@ struct UploadPostView: View {
                         .clipped()
                         .padding(.top, 56)
                         .foregroundColor(.black)
-                        .overlay(
-                            Text("Photo")
-                                .font(.system(size: 25, weight: .semibold, design: .rounded))
-                                .foregroundColor(.black)
-                                .offset(y: 75)
-                        )
                 }).sheet(isPresented: $imagePickerPresented,
+
                          onDismiss: loadImage,
                          content: {
                             ImagePicker(image: $selectedImage)
