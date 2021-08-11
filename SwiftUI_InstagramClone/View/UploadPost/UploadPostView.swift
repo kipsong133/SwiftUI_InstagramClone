@@ -14,12 +14,15 @@ struct UploadPostView: View {
     // SwiftUI의 Image 객체에 넣기 위한 프로퍼티
     @State var postImage: Image?
     @State var captionText = ""
+    @State var imagePickerPresented = false
     
     var body: some View {
         VStack {
             if postImage == nil { // 이미지를 선택하지 않은 경우
                 
-                Button(action: {}, label: {
+                Button(action: {
+                    imagePickerPresented.toggle()
+                }, label: {
                     Image("AddImage")
                         .resizable()
                         .renderingMode(.template)
@@ -34,11 +37,15 @@ struct UploadPostView: View {
                                 .foregroundColor(.black)
                                 .offset(y: 75)
                         )
-                })
+                }).sheet(isPresented: $imagePickerPresented,
+                         onDismiss: loadImage,
+                         content: {
+                            ImagePicker(image: $selectedImage)
+                         })
                 
-            } else { // 이미지를 선택한 경우
+            } else if let image = postImage{ // 이미지를 선택한 경우
                 HStack(alignment: .top) {
-                    Image("모야")
+                    image
                         .resizable()
                         .scaledToFill()
                         .frame(width: 96, height: 96)
@@ -60,6 +67,13 @@ struct UploadPostView: View {
             
             Spacer()
         }
+    }
+}
+
+extension UploadPostView {
+    func loadImage() {
+        guard let selectedImage = selectedImage else { return }
+        postImage = Image(uiImage: selectedImage)
     }
 }
 

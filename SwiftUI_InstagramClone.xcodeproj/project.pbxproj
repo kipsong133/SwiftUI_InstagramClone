@@ -27,6 +27,7 @@
 		25D81D3926C3EE44003AC2AB /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D3826C3EE44003AC2AB /* ProfileHeaderView.swift */; };
 		25D81D3B26C3F318003AC2AB /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D3A26C3F318003AC2AB /* UserStatView.swift */; };
 		25D81D3D26C3F6A8003AC2AB /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D3C26C3F6A8003AC2AB /* ProfileActionButtonView.swift */; };
+		25D81D4126C40D70003AC2AB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D4026C40D70003AC2AB /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		25D81D3826C3EE44003AC2AB /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		25D81D3A26C3F318003AC2AB /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		25D81D3C26C3F6A8003AC2AB /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
+		25D81D4026C40D70003AC2AB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				25D81D3426C3E1C3003AC2AB /* Extensions.swift */,
+				25D81D4026C40D70003AC2AB /* ImagePicker.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				2513BC532694A21F009249CE /* ContentView.swift in Sources */,
 				2513BC512694A21F009249CE /* SwiftUI_InstagramCloneApp.swift in Sources */,
 				2513BC792694A4C6009249CE /* ProfileView.swift in Sources */,
+				25D81D4126C40D70003AC2AB /* ImagePicker.swift in Sources */,
 				25D81D3926C3EE44003AC2AB /* ProfileHeaderView.swift in Sources */,
 				2513BC732694A458009249CE /* MainTabView.swift in Sources */,
 				25D81D3B26C3F318003AC2AB /* UserStatView.swift in Sources */,
