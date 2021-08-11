@@ -20,6 +20,8 @@
 		2513BC7F2694A7DA009249CE /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513BC7E2694A7DA009249CE /* FeedCell.swift */; };
 		25D81D2D26C3D4A3003AC2AB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D2C26C3D4A3003AC2AB /* SearchBar.swift */; };
 		25D81D2F26C3DBB3003AC2AB /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D2E26C3DBB3003AC2AB /* PostGridView.swift */; };
+		25D81D3126C3DD71003AC2AB /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D3026C3DD71003AC2AB /* UserCell.swift */; };
+		25D81D3326C3DD7C003AC2AB /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D3226C3DD7C003AC2AB /* UserListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		2513BC7E2694A7DA009249CE /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		25D81D2C26C3D4A3003AC2AB /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		25D81D2E26C3DBB3003AC2AB /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		25D81D3026C3DD71003AC2AB /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		25D81D3226C3DD7C003AC2AB /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 			isa = PBXGroup;
 			children = (
 				25D81D2E26C3DBB3003AC2AB /* PostGridView.swift */,
+				25D81D3026C3DD71003AC2AB /* UserCell.swift */,
+				25D81D3226C3DD7C003AC2AB /* UserListView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -317,9 +323,11 @@
 				2513BC512694A21F009249CE /* SwiftUI_InstagramCloneApp.swift in Sources */,
 				2513BC792694A4C6009249CE /* ProfileView.swift in Sources */,
 				2513BC732694A458009249CE /* MainTabView.swift in Sources */,
+				25D81D3126C3DD71003AC2AB /* UserCell.swift in Sources */,
 				25D81D2D26C3D4A3003AC2AB /* SearchBar.swift in Sources */,
 				2513BC7D2694A4EF009249CE /* NotificationsView.swift in Sources */,
 				2513BC7F2694A7DA009249CE /* FeedCell.swift in Sources */,
+				25D81D3326C3DD7C003AC2AB /* UserListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
