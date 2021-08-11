@@ -19,6 +19,7 @@
 		2513BC7D2694A4EF009249CE /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513BC7C2694A4EF009249CE /* NotificationsView.swift */; };
 		2513BC7F2694A7DA009249CE /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513BC7E2694A7DA009249CE /* FeedCell.swift */; };
 		25D81D2D26C3D4A3003AC2AB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D2C26C3D4A3003AC2AB /* SearchBar.swift */; };
+		25D81D2F26C3DBB3003AC2AB /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D2E26C3DBB3003AC2AB /* PostGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		2513BC7C2694A4EF009249CE /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		2513BC7E2694A7DA009249CE /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		25D81D2C26C3D4A3003AC2AB /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		25D81D2E26C3DBB3003AC2AB /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 		2513BC6D2694A33E009249CE /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				25D81D2E26C3DBB3003AC2AB /* PostGridView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				2513BC772694A4B5009249CE /* SearchView.swift in Sources */,
 				2513BC752694A48E009249CE /* FeedView.swift in Sources */,
+				25D81D2F26C3DBB3003AC2AB /* PostGridView.swift in Sources */,
 				2513BC7B2694A4D6009249CE /* UploadPostView.swift in Sources */,
 				2513BC532694A21F009249CE /* ContentView.swift in Sources */,
 				2513BC512694A21F009249CE /* SwiftUI_InstagramCloneApp.swift in Sources */,
