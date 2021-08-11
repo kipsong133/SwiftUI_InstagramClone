@@ -24,6 +24,7 @@
 		25D81D3326C3DD7C003AC2AB /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D3226C3DD7C003AC2AB /* UserListView.swift */; };
 		25D81D3526C3E1C3003AC2AB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D3426C3E1C3003AC2AB /* Extensions.swift */; };
 		25D81D3726C3EBC9003AC2AB /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D3626C3EBC9003AC2AB /* NotificationCell.swift */; };
+		25D81D3926C3EE44003AC2AB /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D81D3826C3EE44003AC2AB /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		25D81D3226C3DD7C003AC2AB /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		25D81D3426C3E1C3003AC2AB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		25D81D3626C3EBC9003AC2AB /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		25D81D3826C3EE44003AC2AB /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				2513BC782694A4C6009249CE /* ProfileView.swift */,
+				25D81D3826C3EE44003AC2AB /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				2513BC532694A21F009249CE /* ContentView.swift in Sources */,
 				2513BC512694A21F009249CE /* SwiftUI_InstagramCloneApp.swift in Sources */,
 				2513BC792694A4C6009249CE /* ProfileView.swift in Sources */,
+				25D81D3926C3EE44003AC2AB /* ProfileHeaderView.swift in Sources */,
 				2513BC732694A458009249CE /* MainTabView.swift in Sources */,
 				25D81D3126C3DD71003AC2AB /* UserCell.swift in Sources */,
 				25D81D2D26C3D4A3003AC2AB /* SearchBar.swift in Sources */,
