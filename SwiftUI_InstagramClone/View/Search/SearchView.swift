@@ -15,7 +15,6 @@ struct SearchView: View {
     var body: some View {
 
         ScrollView {
-            Text("Search")
             
             // Search bar
             SearchBar(text: $searchText, isEditing: $inSearchMode)
