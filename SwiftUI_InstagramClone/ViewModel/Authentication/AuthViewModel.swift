@@ -10,6 +10,12 @@ import Firebase
 
 class AuthViewModel: ObservableObject {
     
+    @Published var userSession: FirebaseAuth.User?
+    
+    init() {
+        userSession = Auth.auth().currentUser // 현재 유자가 있는지 확인한다.
+    }
+    
     func login() {
         print("Login")
     }

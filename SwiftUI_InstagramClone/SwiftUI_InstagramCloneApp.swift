@@ -17,8 +17,7 @@ struct SwiftUI_InstagramCloneApp: App {
 
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            LoginView().environmentObject(AuthViewModel())
+            ContentView().environmentObject(AuthViewModel())
         }
     }
 }
