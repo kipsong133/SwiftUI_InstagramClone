@@ -10,9 +10,9 @@ import Firebase
 
 class AuthViewModel: ObservableObject {
     
-    @Published var userSession: FirebaseAuth.User?
     static let shared = AuthViewModel()
     
+    @Published var userSession: FirebaseAuth.User?
     
     init() {
         userSession = Auth.auth().currentUser // 현재 유자가 있는지 확인한다.
@@ -38,10 +38,9 @@ class AuthViewModel: ObservableObject {
     }
     
     func signout() {
-        print(#function)
+        print(#function, "in ", #file)
         self.userSession = nil
         try? Auth.auth().signOut()
-        
     }
     
     func resetPassword() {
